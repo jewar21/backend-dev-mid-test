@@ -41,14 +41,19 @@ Esto creará un entorno virtual, lo activará y descargará las dependencias.
 
 ```
 backend-dev-mid-test/
-├── database/                  # Punto 1: Base de datos para blog
-│   ├── blog_platform.png      # Diagrama ER
+├── database/       # Punto 1: Base de datos para blog
+│   ├── blog_platform.png       # Diagrama ER
 │   ├── blog_platform.sql
-│   └── models.py              # Modelos SQLAlchemy
+│   └── models.py       # Modelos SQLAlchemy
 ├── target_sum/
-│   ├── main.py                    # Ejecución interactiva desde consola
-│   ├── target_sum.py              # Contiene la función `find_two_sum`
-│   └── test_target_sum.py         # Pruebas unitarias con `unittest`
+│   ├── main.py     # Ejecución interactiva desde consola
+│   ├── target_sum.py       # Contiene la función `find_two_sum`
+│   └── test_target_sum.py      # Pruebas unitarias con `unittest`
+├── library_system/
+│    ├── uml/
+│    │   └── library_uml.drawio.png     # Imagen del diagrama UML
+     ├── main.py
+│    └── models.py      # Clases Book, Member y Library
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
@@ -92,3 +97,28 @@ python -m unittest blog_target_sum/test_target_sum.py
 ```
 
 La función está probada contra diferentes casos, incluyendo listas vacías, sin solución, con números negativos y con múltiples soluciones posibles.
+
+---
+
+## 📚 Punto 3: Sistema de Gestión de Biblioteca
+
+Este módulo implementa un sistema sencillo de biblioteca basado en clases POO. El diseño está compuesto por tres clases principales:
+
+- `Book`: representa un libro con atributos básicos e información de préstamo
+- `Member`: representa un usuario registrado en la biblioteca
+- `Library`: gestiona la colección de libros y los miembros, y permite prestar y recibir libros
+
+### Diagrama de Clases UML
+
+El siguiente diagrama muestra la estructura lógica del sistema:
+
+![Diagrama UML](library_system/uml/library_uml.drawio.png)
+
+### Características implementadas
+
+- Registro de libros y miembros
+- Préstamo de libros con validación de disponibilidad
+- Devolución de libros
+- Seguimiento de libros prestados por cada miembro
+
+---
