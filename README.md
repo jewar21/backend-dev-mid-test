@@ -45,6 +45,10 @@ backend-dev-mid-test/
 │   ├── blog_platform.png      # Diagrama ER
 │   ├── blog_platform.sql
 │   └── models.py              # Modelos SQLAlchemy
+├── target_sum/
+│   ├── main.py                    # Ejecución interactiva desde consola
+│   ├── target_sum.py              # Contiene la función `find_two_sum`
+│   └── test_target_sum.py         # Pruebas unitarias con `unittest`
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
@@ -70,3 +74,21 @@ Se diseñó una base de datos relacional que permite:
 - `models.py`: versión en SQLAlchemy de los modelos
 
 ---
+
+## 🧮 Punto 2: Función para encontrar dos números que suman un entero destino
+
+Se desarrolló una función eficiente que identifica los índices de dos números dentro de una lista que suman un número entero destino (target) ingresado por el usuario.
+
+### Ejecución del programa
+
+```bash
+python blog_target_sum/main.py
+```
+
+### Ejecución de pruebas
+
+```bash
+python -m unittest blog_target_sum/test_target_sum.py
+```
+
+La función está probada contra diferentes casos, incluyendo listas vacías, sin solución, con números negativos y con múltiples soluciones posibles.
