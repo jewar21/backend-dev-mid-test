@@ -34,3 +34,39 @@ bash setup_env.sh
 ```
 
 Esto creará un entorno virtual, lo activará y descargará las dependencias.
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+backend-dev-mid-test/
+├── database/                  # Punto 1: Base de datos para blog
+│   ├── blog_platform.png      # Diagrama ER
+│   ├── blog_platform.sql
+│   └── models.py              # Modelos SQLAlchemy
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── setup_env.sh
+```
+
+---
+
+## 🧠 Punto 1: Base de Datos de Blog
+
+Se diseñó una base de datos relacional que permite:
+- Registrar usuarios
+- Publicar entradas de blog
+- Comentar en entradas
+- Etiquetar publicaciones
+
+### Diagrama ER
+
+![Diagrama ER](database/blog_platform.png)
+
+### Archivos
+- `blog_platform.sql`: script SQL para crear la base de datos
+- `models.py`: versión en SQLAlchemy de los modelos
+
+---
