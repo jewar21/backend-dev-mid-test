@@ -122,3 +122,73 @@ El siguiente diagrama muestra la estructura lógica del sistema:
 - Seguimiento de libros prestados por cada miembro
 
 ---
+
+## 💾 Persistencia con JSON
+
+A partir del Punto 3 se implementó una capa de persistencia para que los libros puedan mantenerse entre ejecuciones del sistema.
+
+### Estructura JSON de libros
+
+```json
+{
+  "books": [
+    {
+      "book_id": 1,
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "9780451524935",
+      "is_borrowed": false
+    }
+  ]
+}
+```
+
+### Funcionalidad
+- Los libros se cargan automáticamente desde `library_system/persistence/books.json`
+- Cada vez que se presta o devuelve un libro, se guarda el estado actualizado en el archivo JSON
+
+---
+
+## ✅ Tests unitarios
+
+Se implementaron pruebas automáticas con `unittest` en el archivo:
+
+```bash
+library_system/test/test_library.py
+```
+
+### ¿Qué se prueba?
+- Préstamo de libros
+- Devoluciones
+- Restricciones de préstamo doble
+- Miembros y libros inexistentes
+
+### ¿Cómo ejecutarlo?
+
+Desde la raíz del proyecto:
+
+```bash
+python -m library_system.test.test_library
+```
+
+---
+
+## 🧪 CLI Interactivo con Argumentos
+
+El sistema incluye una interfaz de línea de comandos (CLI) usando `argparse`, ubicada en `library_system/cli_main.py`.
+
+### Comandos disponibles:
+
+```bash
+python -m library_system.cli_main --list
+python -m library_system.cli_main --lend 1 --member 101
+python -m library_system.cli_main --return_book 1 --member 101
+```
+
+### ¿Qué hace?
+
+- Permite listar libros disponibles y prestados
+- Prestar libros a miembros existentes
+- Registrar devoluciones
+
+> La persistencia se mantiene tras cada acción gracias al uso de JSON.
