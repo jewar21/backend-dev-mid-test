@@ -41,23 +41,32 @@ Esto creará un entorno virtual, lo activará y descargará las dependencias.
 
 ```
 backend-dev-mid-test/
-├── database/       # Punto 1: Base de datos para blog
-│   ├── blog_platform.png       # Diagrama ER
+├── database/                          # Punto 1: Base de datos para blog
+│   ├── blog_platform.png              # Diagrama ER
 │   ├── blog_platform.sql
-│   └── models.py       # Modelos SQLAlchemy
-├── target_sum/
-│   ├── main.py     # Ejecución interactiva desde consola
-│   ├── target_sum.py       # Contiene la función `find_two_sum`
-│   └── test_target_sum.py      # Pruebas unitarias con `unittest`
-├── library_system/
-│    ├── uml/
-│    │   └── library_uml.drawio.png     # Imagen del diagrama UML
-     ├── main.py
-│    └── models.py      # Clases Book, Member y Library
-├── .gitignore
-├── README.md
-├── requirements.txt
-└── setup_env.sh
+│   └── models.py                      # Modelos SQLAlchemy
+├── library_system/                    # Punto 3: Sistema de biblioteca modular y persistente
+│   ├── persistence
+│   │   ├── __init__.py
+│   │   ├── books.json                 # Base de datos simulada en formato JSON
+│   │   └── persistence.py             # Funciones para guardar y cargar libros
+│   ├── test
+│   │   ├── __init__.py
+│   │   └── test_library.py            # Pruebas con `unittest`
+│   ├── uml/
+│   │   └── library_uml.drawio.png     # Imagen del diagrama `UML`
+│   ├── __init__.py
+│   ├── cli_main.py                    # CLI con argparse para préstamo, devolución y listado
+│   ├── main.py                        # Simulación funcional básica
+│   └── models.py                      # Clases Book, Member y Library
+├── target_sum/                        # Punto 2: Algoritmo para encontrar dos números que suman un target
+│   ├── main.py                        # Ejecución interactiva desde consola
+│   ├── target_sum.py                  # Contiene la función `find_two_sum`
+│   └── test_target_sum.py             # Pruebas unitarias con `unittest`
+├── .gitignore                         # Exclusiones de entorno virtual y cachés
+├── README.md                          # Documentación completa del proyecto
+├── requirements.txt                   
+└── setup_env.sh                       # Script de configuración del entorno
 ```
 
 ---
