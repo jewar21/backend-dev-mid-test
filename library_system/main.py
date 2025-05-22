@@ -20,5 +20,29 @@ print("\n Estado inicial de los libros:")
 for book in library.books:
     status = "Prestado" if book.is_borrowed else "Disponible"
     print(f"- {book.title} ({status})")
-    
-#TODO: Crear los demás casos, préstamo, devolución... etc
+
+# Simular préstamo
+print("\n Prestando '1984' a Alice...")
+library.lend_book(book1, 101)
+
+# Mostrar estado actualizado
+print("\n Estado de los libros después del préstamo:")
+for book in library.books:
+    status = "Prestado" if book.is_borrowed else "Disponible"
+    print(f"- {book.title} ({status})")
+
+# Simular devolución
+print("\n Devolviendo '1984' de Alice...")
+library.receive_book(book1, 101)
+
+# Estado final
+print("\n Estado final de los libros:")
+for book in library.books:
+    status = "Prestado" if book.is_borrowed else "Disponible"
+    print(f"- {book.title} ({status})")
+
+# Ver qué libros tiene cada miembro
+print("\n Libros prestados por miembros:")
+for member in library.members:
+    titles = [book.title for book in member.borrowed_books]
+    print(f"- {member.name}: {titles if titles else 'Ninguno'}")
