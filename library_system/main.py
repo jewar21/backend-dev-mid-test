@@ -1,13 +1,16 @@
-from models import Book, Member, Library
+from library_system.models import Member, Library
+from library_system.persistence.persistence import load_books_from_json, store_books_to_json
+
+BOOKS_JSON_PATH = "library_system/persistence/books.json"
 
 # Crear instancia de Library
 library = Library()
 
-# Agregar libros
-book1 = Book(1, "1984", "George Orwell", "9780451524935")
-book2 = Book(2, "Clean Code", "Robert C. Martin", "9780132350884")
-library.add_book(book1)
-library.add_book(book2)
+# Cargar libros desde JSON
+books =load_books_from_json(BOOKS_JSON_PATH)
+for book in books:
+    library.add_book(book)
+
 
 # Agregar miembros
 member1 = Member(101, "Yisus", "yisus@yisus.com")
@@ -22,8 +25,8 @@ for book in library.books:
     print(f"- {book.title} ({status})")
 
 # Simular préstamo
-print("\n Prestando '1984' a Alice...")
-library.lend_book(book1, 101)
+print("\n Prestando libro a Yisus...")
+library.lend_book(library.books[0], member1.member_id)
 
 # Mostrar estado actualizado
 print("\n Estado de los libros después del préstamo:")
@@ -32,8 +35,8 @@ for book in library.books:
     print(f"- {book.title} ({status})")
 
 # Simular devolución
-print("\n Devolviendo '1984' de Alice...")
-library.receive_book(book1, 101)
+print("\n Devolviendo libro de Yisus...")
+library.receive_book(library.books[0], member1.member_id)
 
 # Estado final
 print("\n Estado final de los libros:")
@@ -46,3 +49,5 @@ print("\n Libros prestados por miembros:")
 for member in library.members:
     titles = [book.title for book in member.borrowed_books]
     print(f"- {member.name}: {titles if titles else 'Ninguno'}")
+    
+store_books_to_json(library.books, BOOKS_JSON_PATH)

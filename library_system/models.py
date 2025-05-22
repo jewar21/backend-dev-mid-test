@@ -7,6 +7,7 @@ class Book:
         self.is_borrowed = False
 
     def borrow(self) -> None:
+        """Marca el libro como prestado."""
         self.is_borrowed = True
 
     def return_book(self) -> None:
@@ -52,7 +53,7 @@ class Library:
         if member and book in member.borrowed_books:
             member.return_book(book)
 
-    #Función auxiliar "privada"
+    # Función auxiliar "privada"
     def _find_member_by_id(self, member_id: int) -> Member | None:
         for m in self.members:
             if m.member_id == member_id:

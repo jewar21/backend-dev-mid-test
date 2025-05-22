@@ -1,0 +1,704 @@
+{
+  "books": [
+    {
+      "book_id": 1,
+      "title": "La perra",
+      "author": "Germán Espinosa",
+      "isbn": "014765307-5",
+      "is_borrowed": true
+    },
+    {
+      "book_id": 2,
+      "title": "La oculta",
+      "author": "Daniel Samper Pizano",
+      "isbn": "071666690-10",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 3,
+      "title": "El ruido de las cosas al caer",
+      "author": "Delia Zapata Olivella",
+      "isbn": "894956353-1",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 4,
+      "title": "Poemas de la ofensa",
+      "author": "Ernesto McCausland",
+      "isbn": "698625352-9",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 5,
+      "title": "Los ejércitos",
+      "author": "León de Greiff",
+      "isbn": "056724809-8",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 6,
+      "title": "Que viva la música",
+      "author": "Guillermo Álvarez Quintero",
+      "isbn": "699624477-8",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 7,
+      "title": "Por el camino de Swann",
+      "author": "Virgilio Barco",
+      "isbn": "9751005570",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 8,
+      "title": "Poemas de la ofensa",
+      "author": "Melba Escobar",
+      "isbn": "160477580-1",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 9,
+      "title": "Crónica de una muerte anunciada",
+      "author": "Germán Espinosa",
+      "isbn": "426664870-5",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 10,
+      "title": "Cóndores no entierran todos los días",
+      "author": "Germán Arciniegas",
+      "isbn": "157290902-6",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 11,
+      "title": "Satanás",
+      "author": "José Eustasio Rivera",
+      "isbn": "028092187-7",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 12,
+      "title": "Angosta",
+      "author": "Antonio Caballero Holguín",
+      "isbn": "1206248530",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 13,
+      "title": "La luz difícil",
+      "author": "José Eustasio Rivera",
+      "isbn": "160041305-2",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 14,
+      "title": "Noticia de un secuestro",
+      "author": "Julio Mario Santo Domingo",
+      "isbn": "243361562-6",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 15,
+      "title": "Vivir para contarla",
+      "author": "María Elvira Lacavex",
+      "isbn": "904034503-4",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 16,
+      "title": "El amor y otros demonios",
+      "author": "Germán Arciniegas",
+      "isbn": "589400625-2",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 17,
+      "title": "Vivir para contarla",
+      "author": "Jaime Manrique",
+      "isbn": "459054665-9",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 18,
+      "title": "Poemas de la ofensa",
+      "author": "Pedro Gómez Valderrama",
+      "isbn": "732069612-8",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 19,
+      "title": "El día del relámpago",
+      "author": "Delia Zapata Olivella",
+      "isbn": "017318821-5",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 20,
+      "title": "Cóndores no entierran todos los días",
+      "author": "Álvaro Mutis",
+      "isbn": "366773920-3",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 21,
+      "title": "Satanás",
+      "author": "Enrique Santos Molano",
+      "isbn": "593833542-3",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 22,
+      "title": "Memoria de mis putas tristes",
+      "author": "Enrique Santos Molano",
+      "isbn": "753857076-4",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 23,
+      "title": "La marquesita de la Habana",
+      "author": "Gabriel García Márquez",
+      "isbn": "238998173-6",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 24,
+      "title": "La vorágine",
+      "author": "Manuel Mejía Vallejo",
+      "isbn": "631444586-3",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 25,
+      "title": "Opus nigrum",
+      "author": "Germán Santamaría",
+      "isbn": "305039002-8",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 26,
+      "title": "El desierto de la doncella",
+      "author": "Julio Mario Santo Domingo",
+      "isbn": "240440275-4",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 27,
+      "title": "Por el camino de Swann",
+      "author": "Alberto Lleras Camargo",
+      "isbn": "651578102-6",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 28,
+      "title": "La luz difícil",
+      "author": "Alberto Lleras Camargo",
+      "isbn": "493500449-9",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 29,
+      "title": "El ruido de las cosas al caer",
+      "author": "Meira Delmar",
+      "isbn": "343752224-8",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 30,
+      "title": "Noticia de un secuestro",
+      "author": "Gabriel García Márquez",
+      "isbn": "733603500-8",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 31,
+      "title": "La carroza de Bolívar",
+      "author": "Carlos Cuauhtémoc Sánchez",
+      "isbn": "005206734-6",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 32,
+      "title": "El país de la canela",
+      "author": "Soledad Acosta Kemble",
+      "isbn": "423803520-3",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 33,
+      "title": "La virgen de los sicarios",
+      "author": "Julio Mario Santo Domingo",
+      "isbn": "9819733210",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 34,
+      "title": "Que viva la música",
+      "author": "José María Vergara y Vergara",
+      "isbn": "103838641-9",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 35,
+      "title": "Por el camino de Swann",
+      "author": "Soledad Acosta Kemble",
+      "isbn": "167682855-10",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 36,
+      "title": "La marquesita de la Habana",
+      "author": "Ramón Illán Bacca",
+      "isbn": "041383001-8",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 37,
+      "title": "Doce cuentos peregrinos",
+      "author": "Lucía Ortiz",
+      "isbn": "554552101-9",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 38,
+      "title": "La perra",
+      "author": "Germán Santamaría",
+      "isbn": "003189945-2",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 39,
+      "title": "Noticia de un secuestro",
+      "author": "Enrique Santos Molano",
+      "isbn": "337058748-10",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 40,
+      "title": "Vivir para contarla",
+      "author": "Melba Escobar",
+      "isbn": "068046426-10",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 41,
+      "title": "La hojarasca",
+      "author": "Meira Delmar",
+      "isbn": "893244750-6",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 42,
+      "title": "El olvido que seremos",
+      "author": "Melba Escobar",
+      "isbn": "154674784-5",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 43,
+      "title": "La vorágine",
+      "author": "Mario Mendoza",
+      "isbn": "551060771-2",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 44,
+      "title": "La forma de las ruinas",
+      "author": "Julio Mario Santo Domingo",
+      "isbn": "895641277-8",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 45,
+      "title": "La vorágine",
+      "author": "Darío Jaramillo Agudelo",
+      "isbn": "220006366-10",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 46,
+      "title": "Vivir para contarla",
+      "author": "Pedro Gómez Valderrama",
+      "isbn": "406740193-1",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 47,
+      "title": "Historia de un deicidio",
+      "author": "Gabriel García Márquez",
+      "isbn": "480482169-6",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 48,
+      "title": "Los días azules",
+      "author": "Jorge Isaacs",
+      "isbn": "326104766-7",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 49,
+      "title": "Los días azules",
+      "author": "Germán Arciniegas",
+      "isbn": "148546852-7",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 50,
+      "title": "El amor en los tiempos del cólera",
+      "author": "Fernando Vallejo",
+      "isbn": "370385588-6",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 51,
+      "title": "El ruido de las cosas al caer",
+      "author": "Manuel Mejía Vallejo",
+      "isbn": "506877327-3",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 52,
+      "title": "La increíble y triste historia de la cándida Eréndira y de su abuela desalmada",
+      "author": "Ernesto McCausland",
+      "isbn": "735723877-2",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 53,
+      "title": "Cien años de soledad",
+      "author": "Carlos Cuauhtémoc Sánchez",
+      "isbn": "835918243-4",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 54,
+      "title": "Los días azules",
+      "author": "Héctor Abad Faciolince",
+      "isbn": "167778136-7",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 55,
+      "title": "María",
+      "author": "Ana María Shua",
+      "isbn": "089884966-1",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 56,
+      "title": "Crónica de una muerte anunciada",
+      "author": "Andrés Felipe Solano",
+      "isbn": "534304437-5",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 57,
+      "title": "Satanás",
+      "author": "Fernando Vallejo",
+      "isbn": "760012878-4",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 58,
+      "title": "El desierto de la doncella",
+      "author": "Tomás González",
+      "isbn": "324408010-9",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 59,
+      "title": "Sin remedio",
+      "author": "Ramón Illán Bacca",
+      "isbn": "705209336-9",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 60,
+      "title": "La carroza de Bolívar",
+      "author": "Augusto Ramírez Moreno",
+      "isbn": "988477272-8",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 61,
+      "title": "El amor y otros demonios",
+      "author": "Germán Espinosa",
+      "isbn": "288453739-9",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 62,
+      "title": "El desierto de la doncella",
+      "author": "Francisco Javier Vera",
+      "isbn": "663732684-4",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 63,
+      "title": "Delirio",
+      "author": "María Mercedes Carranza",
+      "isbn": "174091377-4",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 64,
+      "title": "Que viva la música",
+      "author": "Germán Santamaría",
+      "isbn": "078731814-6",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 65,
+      "title": "El país de la canela",
+      "author": "Alberto Lleras Camargo",
+      "isbn": "453574710-1",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 66,
+      "title": "El amor y otros demonios",
+      "author": "Germán Espinosa",
+      "isbn": "6008952090",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 67,
+      "title": "Crónica de una muerte anunciada",
+      "author": "Pedro Gómez Valderrama",
+      "isbn": "345036064-9",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 68,
+      "title": "La ceiba de la memoria",
+      "author": "Leopoldo Kopp",
+      "isbn": "163934852-2",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 69,
+      "title": "La carroza de Bolívar",
+      "author": "Darío Jaramillo Agudelo",
+      "isbn": "180030122-5",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 70,
+      "title": "Los días azules",
+      "author": "Héctor Abad Faciolince",
+      "isbn": "010675559-7",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 71,
+      "title": "Vivir para contarla",
+      "author": "Juan Gabriel Vásquez",
+      "isbn": "134772444-3",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 72,
+      "title": "Satanás",
+      "author": "Jaime Manrique",
+      "isbn": "498042461-7",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 73,
+      "title": "Cóndores no entierran todos los días",
+      "author": "Augusto Ramírez Moreno",
+      "isbn": "333707353-2",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 74,
+      "title": "Cien años de soledad",
+      "author": "Andrés Felipe Solano",
+      "isbn": "544267696-6",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 75,
+      "title": "El ruido de las cosas al caer",
+      "author": "Juan Manuel Roca",
+      "isbn": "992293232-10",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 76,
+      "title": "El general en su laberinto",
+      "author": "Germán Santamaría",
+      "isbn": "732063734-10",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 77,
+      "title": "El otoño del patriarca",
+      "author": "Plinio Apuleyo Mendoza",
+      "isbn": "422090249-1",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 78,
+      "title": "El amor en los tiempos del cólera",
+      "author": "Virgilio Barco",
+      "isbn": "006977703-6",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 79,
+      "title": "Vivir para contarla",
+      "author": "Enrique Santos Molano",
+      "isbn": "796337922-3",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 80,
+      "title": "El país de la canela",
+      "author": "Fernando Vallejo",
+      "isbn": "9920792590",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 81,
+      "title": "Historia de un deicidio",
+      "author": "Manuel Mejía Vallejo",
+      "isbn": "748523399-5",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 82,
+      "title": "Crónica de una muerte anunciada",
+      "author": "Héctor Abad Faciolince",
+      "isbn": "175443615-1",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 83,
+      "title": "Manuela",
+      "author": "Luis Carlos López",
+      "isbn": "608233985-5",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 84,
+      "title": "Historia de un deicidio",
+      "author": "Plinio Apuleyo Mendoza",
+      "isbn": "911952279-7",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 85,
+      "title": "La mala hora",
+      "author": "Francisco Javier Vera",
+      "isbn": "202647743-4",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 86,
+      "title": "La casa grande",
+      "author": "Luis Carlos López",
+      "isbn": "502125661-9",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 87,
+      "title": "El otoño del patriarca",
+      "author": "Carlos Arturo Truque",
+      "isbn": "864123741-10",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 88,
+      "title": "Los funerales de la Mamá Grande",
+      "author": "Alberto Lleras Camargo",
+      "isbn": "457803711-5",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 89,
+      "title": "La marquesita de la Habana",
+      "author": "Juan Gabriel Vásquez",
+      "isbn": "034492363-10",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 90,
+      "title": "La multitud errante",
+      "author": "Alberto Lleras Camargo",
+      "isbn": "564408572-4",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 91,
+      "title": "La casa grande",
+      "author": "Germán Espinosa",
+      "isbn": "624166895-7",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 92,
+      "title": "El día del relámpago",
+      "author": "Antonio Caballero Holguín",
+      "isbn": "320667207-9",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 93,
+      "title": "Por el camino de Swann",
+      "author": "Laura Restrepo",
+      "isbn": "285530582-4",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 94,
+      "title": "Manuela",
+      "author": "Germán Espinosa",
+      "isbn": "4044976230",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 95,
+      "title": "Sin remedio",
+      "author": "Manuel Mejía Vallejo",
+      "isbn": "740956266-8",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 96,
+      "title": "La marquesita de la Habana",
+      "author": "Germán Santamaría",
+      "isbn": "114707663-1",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 97,
+      "title": "Los ejércitos",
+      "author": "Jorge Isaacs",
+      "isbn": "4385399580",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 98,
+      "title": "Doce cuentos peregrinos",
+      "author": "Pedro Gómez Valderrama",
+      "isbn": "630035185-9",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 99,
+      "title": "La marquesita de la Habana",
+      "author": "Manuel Mejía Vallejo",
+      "isbn": "783872105-1",
+      "is_borrowed": false
+    },
+    {
+      "book_id": 100,
+      "title": "Delirio",
+      "author": "Mario Mendoza",
+      "isbn": "218686689-9",
+      "is_borrowed": false
+    }
+  ]
+}
